@@ -18,9 +18,9 @@ Works with Claude Code, Cursor, and any tool that supports the [agent skills](ht
 
 | Skill | Description |
 |-------|-------------|
-| [`steel-man`](skills/steel-man/SKILL.md) | Interrogate a product idea to find weaknesses before you build |
-| [`stress-test`](skills/stress-test/SKILL.md) | Simulate focus groups, pre-mortems, and stakeholder pushback |
-| [`blind-spot`](skills/blind-spot/SKILL.md) | Extract the assumptions you're treating as facts that you haven't validated |
+| [`steel-man`](skills/steel-man/SKILL.md) | Poke holes in a product idea before you commit to building it |
+| [`stress-test`](skills/stress-test/SKILL.md) | Simulate focus groups, pre-mortems, and stakeholder pushback on a feature |
+| [`blind-spot`](skills/blind-spot/SKILL.md) | Surface the assumptions you haven't validated yet |
 
 ### Go to Market
 
@@ -34,19 +34,20 @@ Works with Claude Code, Cursor, and any tool that supports the [agent skills](ht
 | Skill | Description |
 |-------|-------------|
 | [`claude-md-review`](skills/claude-md-review/SKILL.md) | Audit your instruction files for bloat, gaps, and stale rules |
-| [`safety-check`](skills/safety-check/SKILL.md) | Find safety gaps before they cost you a lost afternoon |
+| [`safety-check`](skills/safety-check/SKILL.md) | Catch common safety gaps in your project before an agent run goes sideways |
 
 ### Solo Builder Survival
 
 | Skill | Description |
 |-------|-------------|
-| [`rabbit-hole`](skills/rabbit-hole/SKILL.md) | Find out how many levels deep you are from what you actually sat down to do |
+| [`rabbit-hole`](skills/rabbit-hole/SKILL.md) | Check how far you've drifted from what you actually sat down to do |
+| [`session-wrap`](skills/session-wrap/SKILL.md) | End-of-session ritual that persists decisions, updates memory, and logs your work so you don't rebuild context from scratch every morning |
 
 ### Staying Current
 
 | Skill | Description |
 |-------|-------------|
-| [`weekly-digest`](skills/weekly-digest/SKILL.md) | Filtered weekly AI news briefing. Signal only, no noise. |
+| [`weekly-digest`](skills/weekly-digest/SKILL.md) | Weekly AI news briefing filtered down to what actually matters |
 
 ## Usage
 
@@ -82,6 +83,10 @@ Run a first-glance test on this landing page copy.
 
 ```
 What blind spots am I missing in this business model?
+```
+
+```
+Wrap this session. I'm done for today.
 ```
 
 ```
